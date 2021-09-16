@@ -1,0 +1,157 @@
+html {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    width: 100%;
+    max-width: 1000 px;
+}
+
+header {
+   width: 100%;
+   margin: 1em auto;
+   background-size: 100% auto;
+   text-align: center;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1.5em;
+    font-size: 1.25em;
+    color: blue;
+}
+
+.team {
+    font-style: italic;
+    color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex_content img {
+    width: 80%;
+    max-width: 161px;
+}
+
+.cart {
+    float: right;
+    width: 15%;
+    max-width: 75px;
+}
+
+body nav form input {
+    float: right;
+    margin-top: 3em;
+}
+
+/* use flexbox */
+.flex_content {
+    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+figure {
+    flex-grow: 1;
+    flex-basis: 165px;
+    margin-top: 2em;
+    text-align: left;
+}
+
+figcaption {
+    font-size: 90%;
+    padding-top: 1%;
+}
+
+label {
+    font-size: .8em;
+}
+
+form {
+    clear: right;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type='button'], input[type='submit']  {
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure input[type='submit']{
+    margin-left: 0; 
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    font-size: .8em;
+    background-color: #6f81e3;
+}
+
+table {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+table, td, th {
+    border: solid 1px black;
+}
+
+#table_title {
+    color: blue;
+    font-size: 1.5em;
+}
+
+td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+.cust_info_form {
+    margin-left: 30%;
+    font-size: 1.25em;
+}
+
+.cust_info_form label {
+    display: inline-block;
+    width: 10em;
+    margin-top: 1em;
+}
+
+.cust_info_form input[type='submit'] {
+    width: 30%;
+    margin-top: 2em;
+    margin-left: 15%;
+}
+
+.confirm_notice {
+    margin-left: 15%;
+    font-size: 1.25em;
+}
+
+.empty_cart p, .no_orders p{
+    text-align: center;
+}

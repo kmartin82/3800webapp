@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    max-width: 1000 px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+label {
+    font-size: .8em;
+}
+
+form {
+    margin-top: .5em;
+}
+
+.login_label {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 100px;
+}
+.repassword_label {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 61px;
+}
+
+input, select {
+    margin-top: 20px;
+}
+
+input[type='submit'], input[type='reset'] {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#check_button {
+    font-size: .75em;
+    margin-left: 5px;
+}
+
+.first_name_label, .last_name_label {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.address_label {
+    display: inline-block;
+    margin-right: 115px;
+}
+
+.city_label {
+    display: inline-block;
+    margin-right: 139px;
+}
+
+.state_label {
+    display: inline-block;
+    margin-right: 135px;
+}
+
+.zip_label {
+    display: inline-block;
+    margin-right: 145px;
+}
+
+.phone_label {
+    display: inline-block;
+    margin-right: 124px;
+}
+
